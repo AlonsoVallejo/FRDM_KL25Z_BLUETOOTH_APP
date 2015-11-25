@@ -1,0 +1,24 @@
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Project_Headers"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources/Common"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources/cpu"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources/Drivers"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources/Drivers/gpio"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources/Drivers/mcg"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Sources/Drivers/uart"
+-I"C:/Users/Vallejo/Documents/workspace CW/FRDM-KL25Z_BLUETOOTH_APP/Project_Settings/Startup_Code"
+-I"C:/Freescale/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"C:/Freescale/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-O0
+-ffunction-sections
+-fdata-sections
+-Wall
+-c
+-fmessage-length=0
+-specs=ewl_c_noio.specs
